@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		11A080914BDA124A0D8633C1 /* EarlGrey.framework in EarlGrey Copy Files */ = {isa = PBXBuildFile; fileRef = 6A321724F61196AB0EB0853B /* EarlGrey.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		23D90789EADD654509165488 /* Pods_MyLifeFeatures.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDF149B5154AF9FE03AECCF9 /* Pods_MyLifeFeatures.framework */; };
+		BFCE9F62B1E7255349BBCC68 /* EarlGrey.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A321724F61196AB0EB0853B /* EarlGrey.framework */; };
+		F234AC082048898C00A027CD /* MyLifeFeatures.swift in Sources */ = {isa = PBXBuildFile; fileRef = F234AC072048898C00A027CD /* MyLifeFeatures.swift */; };
+		F4D81690BF1B9D58E3CECA63 /* EarlGrey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E75D3E57739549D601F027B /* EarlGrey.swift */; };
+		FA13E2D81CBEBB4F00CB0073 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA13E2D71CBEBB4F00CB0073 /* AppDelegate.swift */; };
+		FA13E2DD1CBEBB4F00CB0073 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA13E2DB1CBEBB4F00CB0073 /* Main.storyboard */; };
+		FA13E2DF1CBEBB4F00CB0073 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA13E2DE1CBEBB4F00CB0073 /* Assets.xcassets */; };
+		FA13E2E21CBEBB4F00CB0073 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA13E2E01CBEBB4F00CB0073 /* LaunchScreen.storyboard */; };
+		FA13E2EC1CBEBBA200CB0073 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA13E2E91CBEBBA200CB0073 /* Person.swift */; };
+		FA13E2ED1CBEBBA200CB0073 /* PersonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA13E2EA1CBEBBA200CB0073 /* PersonViewController.swift */; };
+		FA13E2EE1CBEBBA200CB0073 /* PeopleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA13E2EB1CBEBBA200CB0073 /* PeopleTableViewController.swift */; };
+		FAECF3151CFAA18A008C4EE0 /* README.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FAECF3141CFAA18A008C4EE0 /* README.pdf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F234AC0A2048898C00A027CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA13E2CC1CBEBB4F00CB0073 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA13E2D31CBEBB4F00CB0073;
+			remoteInfo = MyLife;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FE8F92A76F840DF0CF4E13A4 /* EarlGrey Copy Files */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(TEST_HOST)/../";
+			dstSubfolderSpec = 0;
+			files = (
+				11A080914BDA124A0D8633C1 /* EarlGrey.framework in EarlGrey Copy Files */,
+			);
+			name = "EarlGrey Copy Files";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		53124E99767CB0760C3F0BD1 /* Pods-MyLifeFeatures.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyLifeFeatures.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyLifeFeatures/Pods-MyLifeFeatures.release.xcconfig"; sourceTree = "<group>"; };
+		5E75D3E57739549D601F027B /* EarlGrey.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = EarlGrey.swift; sourceTree = "<group>"; };
+		6A321724F61196AB0EB0853B /* EarlGrey.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EarlGrey.framework; path = Pods/EarlGrey/EarlGrey/EarlGrey.framework; sourceTree = SOURCE_ROOT; };
+		CDF149B5154AF9FE03AECCF9 /* Pods_MyLifeFeatures.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyLifeFeatures.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCF2691918FC95C2BB8ECC32 /* Pods-MyLifeFeatures.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyLifeFeatures.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyLifeFeatures/Pods-MyLifeFeatures.debug.xcconfig"; sourceTree = "<group>"; };
+		F234AC052048898C00A027CD /* MyLifeFeatures.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyLifeFeatures.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F234AC072048898C00A027CD /* MyLifeFeatures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyLifeFeatures.swift; sourceTree = "<group>"; };
+		F234AC092048898C00A027CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA13E2D41CBEBB4F00CB0073 /* MyLife.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyLife.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA13E2D71CBEBB4F00CB0073 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FA13E2DC1CBEBB4F00CB0073 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA13E2DE1CBEBB4F00CB0073 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA13E2E11CBEBB4F00CB0073 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FA13E2E31CBEBB4F00CB0073 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA13E2E91CBEBBA200CB0073 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		FA13E2EA1CBEBBA200CB0073 /* PersonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonViewController.swift; sourceTree = "<group>"; };
+		FA13E2EB1CBEBBA200CB0073 /* PeopleTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeopleTableViewController.swift; sourceTree = "<group>"; };
+		FAECF3141CFAA18A008C4EE0 /* README.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = README.pdf; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F234AC022048898C00A027CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFCE9F62B1E7255349BBCC68 /* EarlGrey.framework in Frameworks */,
+				23D90789EADD654509165488 /* Pods_MyLifeFeatures.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA13E2D11CBEBB4F00CB0073 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		94CB6ECD0FBA64651DF73A51 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DCF2691918FC95C2BB8ECC32 /* Pods-MyLifeFeatures.debug.xcconfig */,
+				53124E99767CB0760C3F0BD1 /* Pods-MyLifeFeatures.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C8757A3A57E664EA29FFCC1C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6A321724F61196AB0EB0853B /* EarlGrey.framework */,
+				CDF149B5154AF9FE03AECCF9 /* Pods_MyLifeFeatures.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F234AC062048898C00A027CD /* MyLifeFeatures */ = {
+			isa = PBXGroup;
+			children = (
+				F234AC072048898C00A027CD /* MyLifeFeatures.swift */,
+				F234AC092048898C00A027CD /* Info.plist */,
+				5E75D3E57739549D601F027B /* EarlGrey.swift */,
+			);
+			path = MyLifeFeatures;
+			sourceTree = "<group>";
+		};
+		FA13E2CB1CBEBB4F00CB0073 = {
+			isa = PBXGroup;
+			children = (
+				FAECF3141CFAA18A008C4EE0 /* README.pdf */,
+				FA13E2D61CBEBB4F00CB0073 /* MyLife */,
+				F234AC062048898C00A027CD /* MyLifeFeatures */,
+				FA13E2D51CBEBB4F00CB0073 /* Products */,
+				C8757A3A57E664EA29FFCC1C /* Frameworks */,
+				94CB6ECD0FBA64651DF73A51 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		FA13E2D51CBEBB4F00CB0073 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA13E2D41CBEBB4F00CB0073 /* MyLife.app */,
+				F234AC052048898C00A027CD /* MyLifeFeatures.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA13E2D61CBEBB4F00CB0073 /* MyLife */ = {
+			isa = PBXGroup;
+			children = (
+				FA13E2EB1CBEBBA200CB0073 /* PeopleTableViewController.swift */,
+				FA13E2EA1CBEBBA200CB0073 /* PersonViewController.swift */,
+				FA13E2E91CBEBBA200CB0073 /* Person.swift */,
+				FA13E2DB1CBEBB4F00CB0073 /* Main.storyboard */,
+				FA13E2DE1CBEBB4F00CB0073 /* Assets.xcassets */,
+				FA22B5C91CBEBBFE00F9242E /* Supporting Files */,
+			);
+			path = MyLife;
+			sourceTree = "<group>";
+		};
+		FA22B5C91CBEBBFE00F9242E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA13E2D71CBEBB4F00CB0073 /* AppDelegate.swift */,
+				FA13E2E01CBEBB4F00CB0073 /* LaunchScreen.storyboard */,
+				FA13E2E31CBEBB4F00CB0073 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F234AC042048898C00A027CD /* MyLifeFeatures */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F234AC0C2048898C00A027CD /* Build configuration list for PBXNativeTarget "MyLifeFeatures" */;
+			buildPhases = (
+				E21753243C21881E33D9CE5E /* [CP] Check Pods Manifest.lock */,
+				F234AC012048898C00A027CD /* Sources */,
+				F234AC022048898C00A027CD /* Frameworks */,
+				F234AC032048898C00A027CD /* Resources */,
+				FE8F92A76F840DF0CF4E13A4 /* EarlGrey Copy Files */,
+				9BA57810CEF9CA72DEE70921 /* [CP] Embed Pods Frameworks */,
+				AF3FBDF3E939901FDE932035 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F234AC0B2048898C00A027CD /* PBXTargetDependency */,
+			);
+			name = MyLifeFeatures;
+			productName = MyLifeFeatures;
+			productReference = F234AC052048898C00A027CD /* MyLifeFeatures.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FA13E2D31CBEBB4F00CB0073 /* MyLife */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA13E2E61CBEBB4F00CB0073 /* Build configuration list for PBXNativeTarget "MyLife" */;
+			buildPhases = (
+				FA13E2D01CBEBB4F00CB0073 /* Sources */,
+				FA13E2D11CBEBB4F00CB0073 /* Frameworks */,
+				FA13E2D21CBEBB4F00CB0073 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyLife;
+			productName = MyLife;
+			productReference = FA13E2D41CBEBB4F00CB0073 /* MyLife.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA13E2CC1CBEBB4F00CB0073 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Apple Inc.";
+				TargetAttributes = {
+					F234AC042048898C00A027CD = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FA13E2D31CBEBB4F00CB0073;
+					};
+					FA13E2D31CBEBB4F00CB0073 = {
+						CreatedOnToolsVersion = 7.3;
+						LastSwiftMigration = 0920;
+						LastSwiftUpdateCheck = 0800;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FA13E2CF1CBEBB4F00CB0073 /* Build configuration list for PBXProject "MyLife" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA13E2CB1CBEBB4F00CB0073;
+			productRefGroup = FA13E2D51CBEBB4F00CB0073 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA13E2D31CBEBB4F00CB0073 /* MyLife */,
+				F234AC042048898C00A027CD /* MyLifeFeatures */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F234AC032048898C00A027CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA13E2D21CBEBB4F00CB0073 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAECF3151CFAA18A008C4EE0 /* README.pdf in Resources */,
+				FA13E2E21CBEBB4F00CB0073 /* LaunchScreen.storyboard in Resources */,
+				FA13E2DF1CBEBB4F00CB0073 /* Assets.xcassets in Resources */,
+				FA13E2DD1CBEBB4F00CB0073 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9BA57810CEF9CA72DEE70921 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MyLifeFeatures/Pods-MyLifeFeatures-frameworks.sh",
+				"${PODS_ROOT}/EarlGrey/EarlGrey/EarlGrey.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EarlGrey.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyLifeFeatures/Pods-MyLifeFeatures-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF3FBDF3E939901FDE932035 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyLifeFeatures/Pods-MyLifeFeatures-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E21753243C21881E33D9CE5E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyLifeFeatures-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F234AC012048898C00A027CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F234AC082048898C00A027CD /* MyLifeFeatures.swift in Sources */,
+				F4D81690BF1B9D58E3CECA63 /* EarlGrey.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA13E2D01CBEBB4F00CB0073 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA13E2ED1CBEBBA200CB0073 /* PersonViewController.swift in Sources */,
+				FA13E2EC1CBEBBA200CB0073 /* Person.swift in Sources */,
+				FA13E2EE1CBEBBA200CB0073 /* PeopleTableViewController.swift in Sources */,
+				FA13E2D81CBEBB4F00CB0073 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F234AC0B2048898C00A027CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA13E2D31CBEBB4F00CB0073 /* MyLife */;
+			targetProxy = F234AC0A2048898C00A027CD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FA13E2DB1CBEBB4F00CB0073 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA13E2DC1CBEBB4F00CB0073 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FA13E2E01CBEBB4F00CB0073 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA13E2E11CBEBB4F00CB0073 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F234AC0D2048898C00A027CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCF2691918FC95C2BB8ECC32 /* Pods-MyLifeFeatures.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = MyLifeFeatures/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TheMetalCode.MyLifeFeatures;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyLife.app/MyLife";
+			};
+			name = Debug;
+		};
+		F234AC0E2048898C00A027CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53124E99767CB0760C3F0BD1 /* Pods-MyLifeFeatures.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = MyLifeFeatures/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TheMetalCode.MyLifeFeatures;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyLife.app/MyLife";
+			};
+			name = Release;
+		};
+		FA13E2E41CBEBB4F00CB0073 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FA13E2E51CBEBB4F00CB0073 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA13E2E71CBEBB4F00CB0073 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = MyLife/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.MyLife";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA13E2E81CBEBB4F00CB0073 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = MyLife/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.MyLife";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F234AC0C2048898C00A027CD /* Build configuration list for PBXNativeTarget "MyLifeFeatures" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F234AC0D2048898C00A027CD /* Debug */,
+				F234AC0E2048898C00A027CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA13E2CF1CBEBB4F00CB0073 /* Build configuration list for PBXProject "MyLife" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA13E2E41CBEBB4F00CB0073 /* Debug */,
+				FA13E2E51CBEBB4F00CB0073 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA13E2E61CBEBB4F00CB0073 /* Build configuration list for PBXNativeTarget "MyLife" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA13E2E71CBEBB4F00CB0073 /* Debug */,
+				FA13E2E81CBEBB4F00CB0073 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA13E2CC1CBEBB4F00CB0073 /* Project object */;
+}

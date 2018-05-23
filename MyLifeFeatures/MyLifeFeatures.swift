@@ -14,10 +14,17 @@ import XCTest
 class MyLifeFeatures: XCTestCase {
     
     func testSimpleCellTap() {
-        EarlGrey.select(elementWithMatcher: grey_accessibilityID("person-cell-0")).assert(grey_sufficientlyVisible()).perform(grey_tap())
-        EarlGrey.select(elementWithMatcher: grey_accessibilityID("person-image")).assert(grey_sufficientlyVisible())
-        EarlGrey.select(elementWithMatcher: grey_accessibilityID("person-name")).assert(grey_sufficientlyVisible())
-        EarlGrey.select(elementWithMatcher: grey_accessibilityID("dog-slider")).assert(grey_sufficientlyVisible())
+        let personCell = EarlGrey.selectElement(with: grey_accessibilityID("person-cell-0"))
+        personCell.assert(grey_sufficientlyVisible())
+        personCell.perform(grey_tap())
+        // handle the alert
+        EarlGrey.selectElement(with: grey_text("OK")).perform(grey_tap())
+        let personImage = EarlGrey.selectElement(with: grey_accessibilityID("person-image"))
+        let personName = EarlGrey.selectElement(with: grey_accessibilityID("person-name"))
+        let dogSlider = EarlGrey.selectElement(with: grey_accessibilityID("dog-slider"))
+        personImage.assert(grey_sufficientlyVisible())
+        personName.assert(grey_sufficientlyVisible())
+        dogSlider.assert(grey_sufficientlyVisible())
     }
     
     func testSpecificCellSelection() {}

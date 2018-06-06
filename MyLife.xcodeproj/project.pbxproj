@@ -11,6 +11,9 @@
 		23D90789EADD654509165488 /* Pods_MyLifeFeatures.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDF149B5154AF9FE03AECCF9 /* Pods_MyLifeFeatures.framework */; };
 		BFCE9F62B1E7255349BBCC68 /* EarlGrey.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A321724F61196AB0EB0853B /* EarlGrey.framework */; };
 		F234AC082048898C00A027CD /* MyLifeFeatures.swift in Sources */ = {isa = PBXBuildFile; fileRef = F234AC072048898C00A027CD /* MyLifeFeatures.swift */; };
+		F23A9FE020B760D1005675BA /* PersonListScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23A9FDF20B760D1005675BA /* PersonListScreen.swift */; };
+		F23A9FE220B765F1005675BA /* PersonDetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23A9FE120B765F1005675BA /* PersonDetailScreen.swift */; };
+		F2FBD0AE20C756EC003DDF55 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FBD0AD20C756EC003DDF55 /* Utils.swift */; };
 		F4D81690BF1B9D58E3CECA63 /* EarlGrey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E75D3E57739549D601F027B /* EarlGrey.swift */; };
 		FA13E2D81CBEBB4F00CB0073 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA13E2D71CBEBB4F00CB0073 /* AppDelegate.swift */; };
 		FA13E2DD1CBEBB4F00CB0073 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA13E2DB1CBEBB4F00CB0073 /* Main.storyboard */; };
@@ -55,6 +58,9 @@
 		F234AC052048898C00A027CD /* MyLifeFeatures.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyLifeFeatures.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F234AC072048898C00A027CD /* MyLifeFeatures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyLifeFeatures.swift; sourceTree = "<group>"; };
 		F234AC092048898C00A027CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F23A9FDF20B760D1005675BA /* PersonListScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonListScreen.swift; sourceTree = "<group>"; };
+		F23A9FE120B765F1005675BA /* PersonDetailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonDetailScreen.swift; sourceTree = "<group>"; };
+		F2FBD0AD20C756EC003DDF55 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		FA13E2D41CBEBB4F00CB0073 /* MyLife.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyLife.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA13E2D71CBEBB4F00CB0073 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FA13E2DC1CBEBB4F00CB0073 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -111,6 +117,9 @@
 				F234AC072048898C00A027CD /* MyLifeFeatures.swift */,
 				F234AC092048898C00A027CD /* Info.plist */,
 				5E75D3E57739549D601F027B /* EarlGrey.swift */,
+				F23A9FDF20B760D1005675BA /* PersonListScreen.swift */,
+				F23A9FE120B765F1005675BA /* PersonDetailScreen.swift */,
+				F2FBD0AD20C756EC003DDF55 /* Utils.swift */,
 			);
 			path = MyLifeFeatures;
 			sourceTree = "<group>";
@@ -323,6 +332,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2FBD0AE20C756EC003DDF55 /* Utils.swift in Sources */,
+				F23A9FE020B760D1005675BA /* PersonListScreen.swift in Sources */,
+				F23A9FE220B765F1005675BA /* PersonDetailScreen.swift in Sources */,
 				F234AC082048898C00A027CD /* MyLifeFeatures.swift in Sources */,
 				F4D81690BF1B9D58E3CECA63 /* EarlGrey.swift in Sources */,
 			);
@@ -382,7 +394,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = MyLifeFeatures/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.TheMetalCode.MyLifeFeatures;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -406,7 +418,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = MyLifeFeatures/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.TheMetalCode.MyLifeFeatures;
 				PRODUCT_NAME = "$(TARGET_NAME)";
